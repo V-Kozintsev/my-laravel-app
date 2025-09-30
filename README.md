@@ -11,3 +11,17 @@ composer install
 ```
 npm install
 ```
+
+- Создать файл окружения `.env` (если он отсутствует):
+
+- Сгенерировать ключ приложения:
+
+```
+php artisan key:generate
+```
+
+- Выполняем миграции:
+
+``` 
+php artisan migrate
+```
